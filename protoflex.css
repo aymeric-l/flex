@@ -1,0 +1,28 @@
+.tout{
+  display:flex;				/*déclare l'utilisation d'un flex*/
+  flex-direction:column;	/*et affiche tout sur une colonne*/
+}
+
+header{
+	background-color: #FFEDBB;
+}
+section{
+	background-color: #8EBC8E;
+	flex:1;		/*affichage en horizontal sur toute la place accordée de son conteneur*/
+	display: flex;
+	flex-direction: column;
+	}
+nav{
+	background-color: #CECBFF;
+	font-size:0.80em;
+	width: 100px;
+}
+footer{
+	background-color: #FFEDBB;
+}
+.flex{
+	display:flex; 
+	flex-direction:row; 	/*affiche tout sur une ligne*/
+	}
+
+/* interaction en js :   object.style.flex="1" ....  */
